@@ -1,4 +1,4 @@
-test('the user should see the card on scroll', async () => {
+test('the page should scroll down twice', async () => {
 	await page.goto('http://localhost:8084')
 
 	// the scroll is at the very top
